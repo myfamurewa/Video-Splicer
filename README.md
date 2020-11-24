@@ -12,7 +12,7 @@ This version of the backend is a server side rendering of the system rather than
 
 <p>multer - was used in order to handle multipart/form data more easily.</p>
 
-<p>ffmpeg - was used because it is a fast</p>
+<p>ffmpeg - was used because it offers fast and versatile video editing</p>
 
 <p>Server-side rendering allows you to handle everything from one repository.</p>
 
