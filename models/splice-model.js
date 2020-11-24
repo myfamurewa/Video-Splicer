@@ -4,9 +4,9 @@ module.exports = {
     stitch
 }
 
-function stitch(vid1, vid2, filename = ""){
+function stitch(vid1, vid2){
      let result = concat({
-        output: filename !== ""? `${filename}.mp4` : 'newvid.mp4',
+        output: 'newvid.mp4',
         videos: [
             `${vid1.name}`,
             `${vid2.name}`
