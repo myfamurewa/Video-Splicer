@@ -16,9 +16,11 @@ This version of the backend is a server side rendering of the system rather than
 
 <p>Server-side rendering allows you to handle everything from one repository.</p>
 
-<p>This was built following a tutorial by [Coding Shiksha](https://www.youtube.com/watch?v=9SO-V3MCCNE&ab_channel=CodingShiksha)<p>
+<p>This was built following a tutorial by [Coding Shiksha](https://www.youtube.com/watch?v=9SO-V3MCCNE&ab_channel=CodingShiksha)
+<p>
 
 <p>With both this implementation and the implementation on the main branch I ran into the problem where ffmpeg or ffprobe aren't recognized commands and I haven't yet found a solution</p>
+
 ## How to run it locally
 
 1. npm i
