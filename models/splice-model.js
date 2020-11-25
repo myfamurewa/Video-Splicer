@@ -6,7 +6,7 @@ module.exports = {
     stitch
 }
 
-function stitch(vid1, vid2, filename){
+async function stitch(vid1, vid2){
     videoConcat({
         silent: false,
         overwrite: false
@@ -15,9 +15,9 @@ function stitch(vid1, vid2, filename){
         {"fileName": vid1.name},
         {"fileName": vid2.name}
     ])
-    .output(filename? `${filename}` : 'myNewVideo')
+    .output("newVid")
     .concat()
-    .then((outputFileName) => {
-        return outputFileName
+    .then((newVid) => {
+        return newVid
     })
 }
