@@ -10,7 +10,9 @@ const server = express()
 server.use(helmet.noSniff()); 
 server.use(bodyParser.json())
 server.use(fileUpload({
-    createParentPath: true
+    createParentPath: true,
+    // useTempFiles: true,
+    // tempFileDir: '/tmp/'
 }));
 server.use(bodyParser.urlencoded({extended: true}))
 server.use(express.json());
