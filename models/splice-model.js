@@ -3,7 +3,6 @@ const fs = require('fs')
 let videoConcat = videoStitch.concat;
 
 
-
 async function stitch(vid1, vid2){
     videoConcat({
         silent: false,
